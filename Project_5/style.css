@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&family=Rubik:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    font-family: 'Roboto', sans-serif;
+}
+
+.uni_pad{
+    padding: 0 120px;
+}
+nav{
+    top: 0;
+    position: sticky;
+    box-shadow: 0px 2px 5px #ccc;
+    z-index: 50;
+}
+
+.navigation{
+    max-width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation .bar_icon{
+    margin-top: 25px;
+}
+.hero_section .poster {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-flow: row;
+}
+
+.hero_section .poster .image_plate{
+    position: inherit;
+    width: 512px;
+    height: 514px;
+}
+.hero_section .poster .content1{
+    padding: 20px 50px;
+    
+}
+.hero_section .poster .content1 h5{
+    margin: 50px 0;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+    width: 205px;
+    background-color: green;
+}
+.hero_section .poster .content1 h1{
+    margin-top: 50px;
+    font-size: 72px;
+    width: 500px;
+    font-weight: 500;
+    
+}
+.hero_section .poster .content1 p{
+    margin: 30px 0;
+    font-size: 14px;
+    width: 350px;
+    font-weight: 500;
+    
+}
+.hero_section .poster .content1 .explore_btn button{
+    font-size: 18px;
+    width: 174px;
+    justify-content: center;
+    padding: 8px;
+    color: white;
+    background-color: #FFC066;
+    border: none;
+    transition:0.2s ease-in-out;
+}
+.hero_section .poster .content1 .explore_btn button:hover{
+    transform: scale(1.05);
+    transition:0.2s ease-in-out;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.hero_section .offer{
+    margin: 80px 0;
+}
+
+.hero_section .offer .grid{ 
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+.hero_section .offer .grid .card{
+    display: flex;
+    flex-direction: row;
+}
+.hero_section .offer .grid .card .card_content{
+    padding: 10px;
+}
+.hero_section .offer .grid .card .card_content h5{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.hero_section .offer .grid .card .card_content p{
+    font-size: 14px;
+}
+#menu_btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 900;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+#menu_btn button{
+    color: white;
+    font-size: 24px;
+    background-color: green;
+    padding: 10px;
+    margin: 50px 0;
+    border: none;
+    transition: 0.2s ease-in-out;
+}
+#menu_btn button:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+    border-radius: 5px;
+    transition: 0.2s ease-in-out;
+}
+#menu_btn p{
+    font-size: 36px;
+    margin-bottom: 50px;
+    letter-spacing: 5px;
+}
+
+.food_item {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.food_item{
+    margin-bottom: 120px;
+}
+.grid_box{
+    display: grid;
+    gap: 8px;
+    grid-template-areas: 
+    "i1 i1 i2 i3"
+    "i1 i1 i2 i7"
+    "i4 i5 i6 i7";
+}
+.img-1{
+    grid-area: i1;
+
+}
+.img-2{
+    grid-area: i2;
+}
+.img-3{
+    grid-area: i3;
+}
+.img-4{
+    grid-area: i4;
+}
+.img-5{
+    grid-area: i5;
+}
+.img-6{
+    grid-area: i6;
+}
+.img-7{
+    grid-area: i7;
+}
+.img{
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+    box-shadow: 2px 2px 5px #ccc;
+}
+.img:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: 0.3s ease-in-out;
+    box-shadow: 2px 2px 5px #a3a1a1;
+}
+
+.ftr_content {
+    background-color: #FFF0DB;
+    display: flex;
+    justify-content:center;
+    gap: 0 100px;
+    padding: 15px 0;
+}
+.ftr_content .main_link ul, .support ul, .join input{
+    list-style-type: none;
+    margin: 20px 0;
+}
+.ftr_content .join input{
+    padding: 5px 10px;
+}
+.ftr_content h4{
+    font-size: 18px;
+    color: #565656;
+}
+.ftr_content .main_link ul li, .support ul li{
+    padding-bottom: 10px;
+    font-size: 14px;
+}
